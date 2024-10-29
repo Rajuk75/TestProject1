@@ -1,0 +1,382 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.header {
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+
+
+.white-background {
+    background-color: #ffffff;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+}
+.abcd{
+
+}
+
+/* Button Styles */
+.btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.snap-photos img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-image: https://images.unsplash.com/photo-1571868200845-4fe0659ffd61?q=80&w=1924&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D;
+}
+
+.social-media img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-image: https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1;
+}
+
+/* Photo Styling Cards */
+.photo-styling .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    flex: 1;
+}
+
+/* Form Section */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .card {
+        max-width: 90%;
+    }
+
+    .snap-photos,
+    .social-media,
+    .photo-styling {
+        padding: 40px 10px;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+.header {
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.white-background {
+    background-color: #ffffff;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Left-Right Section Styling */
+.left-right-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+.left-content,
+.right-content {
+    flex: 1;
+    padding: 10px;
+}
+
+.left-content img,
+.right-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left-content {
+    text-align: right;
+}
+
+.right-content {
+    text-align: left;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .left-right-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .left-content,
+    .right-content {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+html, body {
+    height: 100%;            /* Ensure body and HTML take up full height */
+    margin: 0;               /* Remove default margins */
+    padding: 0;              /* Remove default padding */
+    display: flex;
+    flex-direction: column;  /* Ensure footer stays at the bottom */
+}
+
+body {
+    background-color: #f5f5f5; /* Optional: background for the body */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Main content should grow to push the footer to the bottom */
+main {
+    flex: 1;
+}
+
+/* Footer Styles */
+footer {
+    width: 100%;            /* Full-width footer */
+    background-color: #1c1c1c;
+    color: #f1f1f1;
+    padding: 40px 0;
+}
+
+footer h5 {
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+footer a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer .form-outline input {
+    background-color: #2b2b2b;
+    border: 1px solid #444;
+    color: #fff;
+    width: 100%;  /* Full width for responsiveness */
+}
+
+footer .form-outline input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #4caf50;
+}
+
+footer .btn-outline-white {
+    color: #fff;
+    border-color: #4caf50;
+    transition: all 0.3s ease-in-out;
+    width: 100%;  /* Full-width for mobile responsiveness */
+    margin-top: 10px;
+}
+
+footer .btn-outline-white:hover {
+    background-color: #4caf50;
+    border-color: #4caf50;
+}
+
+footer .text-center {
+    background-color: #161616;
+    padding: 10px;
+    font-size: 14px;
+}
+
+footer .text-center a {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1527980965252-13edfffd7f0e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2100&q=60') no-repeat center center/cover;
+}
+
+/* .white-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(222, 10, 10, 0.7);
+} */
+
+.abcd {
+    position: relative;
+    z-index: 2;
+    color: white;
+    text-align: center;
+
+    width: 1680px;
+    height: 300px;
+    top: 100px;
+}
+
+.left-right-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.left-content img,
+.right-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+}

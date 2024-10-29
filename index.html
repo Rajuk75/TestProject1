@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Sharing Community</title>
+    <link rel="icon" type="image/png" href="https://images.unsplash.com/photo-1605379399642-870262d3d051?q=80&w=2106&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMR0A9gP5z5ANa6WAbzC4Ut8CvljRFF1LXsM9Y" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="white-background"></div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="home">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-2 fw-bold" href="#">
+                    <i class="fas fa-code"></i>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto fs-5 fw-semibold gap-4">
+                        <li class="nav-item"><a class="nav-link active" href="#">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+                    </ul>
+                    <ul class="navbar-nav mb-lg-0">
+                        <li class="nav-item"><a class="btn btn-primary" href="#">Login</a></li>
+                        <li class="nav-item"><a class="btn btn-secondary" href="#">Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="abcd">
+            <h1>The largest community of photo enthusiasts</h1>
+            <button class="btn btn-success">Join Us</button>
+        </div>
+    </header>
+
+    <!-- Section 1: Travel Destinations -->
+    <section class="left-right-section">
+        <div class="left-content">
+            <h2>Explore Beautiful Destinations</h2>
+            <p><b>Discover amazing places with stunning landscapes. 
+                Plan your next vacation with us and enjoy exclusive travel packages.</b></p>
+            <h6>India is one of the fastest-growing economies in 
+                the world, playing a major role in global technology, 
+                trade, and innovation. With a booming IT sector, numerous
+                 startups, and a growing manufacturing base, the country has 
+                 become a hub for innovation. Cities like Bangalore, Hyderabad, 
+                 and Pune are known as India’s Silicon Valley. At the same time, 
+                 sectors like agriculture, pharmaceuticals, and space research contribute 
+                 significantly to its economy. Organizations like ISRO (Indian Space Research 
+                 Organization) have made 
+                India a pioneer in space missions, 
+                with achievements like the <b>Chandrayaan</b> moon missions.</h6>
+        </div>
+        <div class="right-content">
+            <img src="https://images.unsplash.com/photo-1571868200845-4fe0659ffd61?q=80&w=1924&auto=format&fit=crop" alt="Travel Destination">
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Section 2: Social Media Posts -->
+    <section class="left-right-section">
+        <div class="left-content">
+            <img src="https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Social Media Post">
+        </div>
+        <div class="right-content">
+            <h2>Share on Social Media</h2>
+            <p><b>Follow us on social media platforms and stay updated with the latest news, offers, and updates.</b></p>
+            <h6>India is a land of incredible diversity, 
+                both in terms of geography and culture. From the snow-capped peaks of 
+                the Himalayas in the north to the lush green forests of Kerala in the south, 
+                the landscape varies dramatically. The country is home to multiple religions, 
+                languages, cuisines, and traditions. With over 1.4 billion people, 
+                it thrives on unity in diversity, fostering harmony despite having 22 official 
+                languages and hundreds of dialects. India's festivals like Diwali, Holi reflect its vibrant 
+                cultural mosaic, celebrating various faiths under one roof.</h6>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section>
+        <h2>Join Our Community</h2>
+        <form id="userForm">
+            <label for="firstName"></label>
+            <input placeholder="First Name" type="text" id="firstName" required><br>
+            <label for="lastName"></label>
+            <input placeholder="Last Name" type="text" id="lastName" required><br>
+            <label for="email"></label>
+            <input placeholder="Enter Your Email" type="email" id="email" required><br>
+            <label for="password"></label>
+            <input placeholder="Enter Your Password" type="password" id="password" required><br>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start border border-white mt-xl-5 pt-4">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-uppercase mb-4">OUR WORLD</h5>
+                    <ul class="list-unstyled mb-4">
+                        <li><a href="#!" class="text-white">About us</a></li>
+                        <li><a href="#!" class="text-white">Collections</a></li>
+                        <li><a href="#!" class="text-white">Environmental philosophy</a></li>
+                        <li><a href="#!" class="text-white">Artist collaborations</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-uppercase mb-4">Assistance</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#!" class="text-white">Contact us</a></li>
+                        <li><a href="#!" class="text-white">Size Guide</a></li>
+                        <li><a href="#!" class="text-white">Shipping Information</a></li>
+                        <li><a href="#!" class="text-white">Returns & Exchanges</a></li>
+                        <li><a href="#!" class="text-white">Payment</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-uppercase mb-4">Careers</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#!" class="text-white">Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-uppercase mb-4">Sign up to our newsletter</h5>
+                    <div class="form-outline form-white mb-4">
+                        <input type="email" id="form5Example2" class="form-control" placeholder="Enter your email "/>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block mb-4">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 Copyright: <a class="text-white" href="https://www.example.com/">Your Website</a>
+        </div>
+    </footer>
+</body>
+
+</html>
